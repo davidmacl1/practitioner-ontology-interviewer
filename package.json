@@ -1,0 +1,27 @@
+{
+  "name": "practitioner-ontology-interviewer",
+  "version": "0.1.0",
+  "description": "An AI interviewer that captures how an expert practitioner thinks, turns it into a structured ontology, and evaluates whether their voice and judgment survived.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "interview": "tsx src/cli/interview.ts",
+    "ontology": "tsx src/cli/ontology.ts",
+    "eval": "tsx src/cli/eval.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.13.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.1"
+  }
+}

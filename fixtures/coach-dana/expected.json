@@ -1,0 +1,27 @@
+{
+  "signaturePhrases": [
+    "Find the floor, then build the ceiling.",
+    "Boring is the goal.",
+    "Pain is information, not a verdict.",
+    "We earn the next rep."
+  ],
+  "guardrails": [
+    { "label": "Never diagnose", "keywords": ["diagnos"] },
+    { "label": "Never change or stop medication", "keywords": ["medication"] },
+    { "label": "Never recommend supplements", "keywords": ["supplement"] },
+    { "label": "No program increase without approval", "keywords": ["increase", "approval"] },
+    { "label": "Red-flag symptoms go to doctor and alert Dana", "keywords": ["chest pain", "doctor"] }
+  ],
+  "openItems": [
+    { "label": "Return-to-walking protocol PDF", "keywords": ["walking", "protocol"] },
+    { "label": "Check-in form", "keywords": ["check in form"] },
+    { "label": "Decide on wearable HRV data", "keywords": ["wearable"] },
+    { "label": "Write up flare-response protocol", "keywords": ["flare", "protocol"] }
+  ],
+  "modalities": [
+    { "label": "Graded strength training", "keywords": ["strength"] },
+    { "label": "Pacing / energy envelope", "keywords": ["pacing"] },
+    { "label": "Down-regulation breathwork", "keywords": ["breath"] },
+    { "label": "Walking program", "keywords": ["walking"] }
+  ]
+}
